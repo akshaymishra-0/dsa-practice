@@ -23,6 +23,7 @@ public class SwapArrElement {
 
         System.out.println("Array after swapping:");
         printArray(arr);
+        input.close();
     }
     public static void swapElements(int[] array, int i, int j) {
         int temp = array[i]; // Store the value at index i in a temporary variable

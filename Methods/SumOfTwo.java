@@ -9,6 +9,7 @@ public class SumOfTwo {
         int secondNum = input.nextInt();
         int result = sum(firstNum, secondNum);
         System.out.println("The sum of " + firstNum + " and " + secondNum + " is: " + result);
+        input.close();
     }
 
     public static int sum(int num1, int num2) {

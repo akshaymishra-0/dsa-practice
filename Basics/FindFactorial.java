@@ -10,5 +10,6 @@ public class FindFactorial {
             factorial = factorial * i;
         }
         System.out.println("The Factorial of " + num + " is : " + factorial);
+        input.close();
     }
 }

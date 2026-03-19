@@ -18,5 +18,6 @@ public class PalindromeNumber {
         } else {
             System.out.println(num + " is not a Palindrome Number");
         }
+        input.close();
     }
 }

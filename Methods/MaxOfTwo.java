@@ -8,6 +8,7 @@ public class MaxOfTwo {
         System.out.print("Enter Second Number: ");
         int secondNum = input.nextInt();
         maxoftwo(firstNum,secondNum);
+        input.close();
     }
     public static void maxoftwo(int num1, int num2) {
         int first = num1;

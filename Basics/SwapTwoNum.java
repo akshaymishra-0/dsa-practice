@@ -13,5 +13,6 @@ public class SwapTwoNum {
         num1 = num2;
         num2 = temp;
         System.out.println("After Swapping : First number = " + num1 + " & Second Number = " + num2);
+        input.close();
     }
 }

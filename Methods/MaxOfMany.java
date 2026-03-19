@@ -12,6 +12,7 @@ public class MaxOfMany {
         }
         int result = maxofmany(arr);
         System.out.print("The Maximum element of " + java.util.Arrays.toString(arr) + " is: " + result);
+        input.close();
     }
 
     public static int maxofmany(int[] arr) {

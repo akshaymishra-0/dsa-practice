@@ -9,6 +9,7 @@ public class FindLCM {
         int num2 = input.nextInt();
         int lcm = findLCM(num1, num2);
         System.out.println("The LCM of " + num1 + " and " + num2 + " is: " + lcm);
+        input.close();
     }
     public static int findLCM(int a, int b) {
         return (a * b) / findGCD(a, b); // LCM can be calculated using GCD

@@ -27,6 +27,8 @@ public class Seggregate0s1s {
     //     }
     // }
 
+
+    // Two Pointer Approach 
     public static void seggregate0s1s(int[] arr) {
         int left = 0;
         int right = arr.length - 1;

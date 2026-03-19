@@ -6,7 +6,8 @@ public class CountDigits {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         int digitCount = countDigits(number);
-        System.out.println("Number of digits: " + digitCount);
+        System.out.println("The number of digits in " + number + " is: " + digitCount);
+        scanner.close();
     }
     public static int countDigits(int number) {
         int count = 0;

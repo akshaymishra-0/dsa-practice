@@ -6,5 +6,6 @@ public class UserInput {
         Scanner input = new Scanner(System.in);
         String msg = "Nice "+input.nextLine() +"!, you are learning Java Quite first";
         System.out.println(msg);
+        input.close();
     }
 }

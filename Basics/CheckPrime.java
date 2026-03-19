@@ -7,6 +7,7 @@ public class CheckPrime {
         int num = input.nextInt();
         if (num <= 1) {
             System.out.println("Not Prime");
+            input.close();
             return;
         }
         boolean isPrime = true;
@@ -22,6 +23,7 @@ public class CheckPrime {
         } else {
             System.out.println("Not Prime");
         }
+        input.close();
 
     }
 }

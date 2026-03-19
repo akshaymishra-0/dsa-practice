@@ -16,6 +16,6 @@ public class FindAverage {
         }
         Average = Average / arr.length;
         System.out.println("The Average is: " + Average);
-
+        input.close();
     }
 }
