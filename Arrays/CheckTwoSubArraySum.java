@@ -14,7 +14,7 @@ public class CheckTwoSubArraySum {
             int suffixSum = totalSum - prefixSum;
 
             if (prefixSum == suffixSum) {
-                canPartition = true;
+                canPartition = true; 
                 break;
             }
         }
